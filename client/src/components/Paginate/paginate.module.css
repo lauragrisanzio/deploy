@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Dongle:wght@300&family=Offside&family=Reggae+One&family=Roboto&family=Special+Elite&display=swap');
+
+.container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid yellow; */
+}
+
+.previousPag{
+    padding-top: 1px;
+    height: 45px;
+    width: 95px;
+    cursor: pointer;
+    background-color: rgb(253, 108, 64);
+    border-radius: 10px;
+    font-family: "Dongle";
+    font-size: 30px;
+    font-weight: bolder;
+    border: none;
+    /* text-decoration: underline; */
+}
+
+.nextPag{
+    padding-top: 1px;
+    height: 45px;
+    width: 95px;
+    cursor: pointer;
+     background-color: rgb(253, 108, 64);;
+     border-radius: 10px;
+      font-family: "Dongle";
+    font-size: 30px;
+    font-weight: bolder;
+    border: none
+}
+
+.input{
+    margin: 5px;
+    padding-top: 4px;
+    color: black;
+    background-color: orangered;
+    height: 45px;
+    width: 50px ;
+    font-family: "Dongle";
+    font-size: 40px;
+    text-align: center;
+    border-radius: 100px;
+    border: none;
+}
+.pagActual {
+    margin: 5px;
+    padding-right: 4px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: orangered;
+    width: 58px;
+    height: 45px;
+    font-family: "Dongle";
+    font-size: 44px;
+    padding-left: 5px;
+    border-radius: 100px;
+}

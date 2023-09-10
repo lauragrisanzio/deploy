@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Dongle:wght@300&family=Lilita+One&family=Offside&family=Phudu:wght@600&family=Reggae+One&family=Roboto&family=Special+Elite&display=swap');
+
+
+.container{
+    /* border: 5px solid black; */
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Phudu";
+    font-size: 40px;
+
+    
+}
+
+.buttons{
+     /* border: 5px solid black; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+   
+    
+}
+.buttonYes{
+    width: 140px;
+    height: 70px;
+    color: black;
+    background-color: green;
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+     cursor: pointer;
+}
+
+.buttonNo{
+     width: 140px;
+    height: 70px;
+    color: black;
+    background-color: red;
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+     cursor: pointer;
+}
+
+.buttonYes:hover{
+    opacity: 0.9;
+    border: rgb(3, 60, 3) solid 6px;
+    border-radius: 5px;
+}
+
+.buttonNo:hover{
+    opacity: 0.9;
+    border: rgb(109, 5, 5) solid 6px;
+    border-radius: 5px;
+}

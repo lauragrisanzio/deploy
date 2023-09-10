@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Dongle:wght@300&family=Lilita+One&family=Offside&family=Reggae+One&family=Roboto&family=Special+Elite&display=swap');
+
+
+
+.container{
+   background-image: url("../../../assets/form/8533c4acb3711fb4db770776275659a4-videojuego-pacman-de-los-80.png");
+    /* background-attachment: fixed; */
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+  /* border: 5px solid yellow; */
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  height: 100vh;
+  /* margin-top: 50px; */
+
+}
+
+.title1 {
+  margin: 10px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid black; */
+  width: 500px;
+  height: 150px;
+}
+
+
+.title1 h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 20px;
+  color: yellow;
+  font-family: "Lilita One";
+  -webkit-text-stroke: 0.5px grey;
+  font-size: 80px;
+}
+
+.title1 h2{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+  text-align: center;
+  align-items: center;
+ /* width: 20px; */
+  color: yellow;
+  font-family: "Special Elite";
+  font-size: 70px;
+}
+
+/* .options{
+color: blue;
+} */
+.form{
+  border: 0.5 solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 820px;
+  background-color: transparent;
+  -webkit-box-shadow: 10px 10px 26px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px 7px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 26px 7px rgba(0,0,0,0.75);
+margin-top: 30px;
+margin-right: 10px;
+font-size: large;
+font-family: "Roboto";
+font-weight: bold;
+text-decoration: underline;
+}
+/* form fieldset {
+  display: table;
+  /* flex-direction: row;
+  justify-content: start; */
+  /* float: right;
+  width: 48%;
+  width: 30%; */
+/* } */ 
+
+input {
+  width: 270px;
+  padding: .2em;
+  align-items: center;
+   /* margin-bottom: 5px; */
+   justify-content: center;
+   margin-left: 40px;
+   margin-top: -15px;
+}
+
+textarea{
+   width: 270px;
+  padding: .2em;
+  align-items: center;
+   margin-bottom: 10px;
+   justify-content: center;
+   margin-left: 40px;
+   margin-top: -15px;
+}
+
+.select{
+    width: 270px;
+   
+  padding: .2em;
+  align-items: center;
+   margin-bottom: 10px;
+   justify-content: center;
+   margin-left: 40px;
+}
+
+.select option {
+  width: 270px;
+   height: 20px;
+}
+
+fieldset{
+margin: 5px;
+
+ /* border: none; */
+ border: yellow solid;
+ border-radius: 20px;
+  float: right;
+  width: 50%;
+  height: 95%;
+
+}
+
+label {
+  text-align: center;
+  display: block;
+  /* margin: 4px 0 0 0; */
+  text-decoration: underline;
+}
+
+.button{
+  padding-left: 6px;
+   border: solid rgb(112, 111, 111) 5px;
+cursor: pointer;
+  border-radius: 10px;
+  color: yellow;
+  background-color: grey;
+  height: 460px;
+  width: 40px;
+  font-size: 25px;
+ margin-right: 5px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 100px;
+  font-family: "Roboto";
+  word-wrap: break-word;
+}
+
+.button:hover{
+  opacity: 0.8;
+  color:blue;
+}
+
+.p {
+  margin-top: -2px;
+  margin-left: 10px;
+  width: 100%;
+  color: rgb(15, 15, 162);
+  /* background-color: rgba(234, 234, 120, 0.961); */
+  font-weight: bolder;
+}
+
+.selection{
+  border: 1px solid black;
+  background-color: grey;
+  width: 80px;
+}
+
+.selectionp{
+  border: 1px solid black;
+  background-color: grey;
+  width: 100%;
+  font-size: 15px;
+}

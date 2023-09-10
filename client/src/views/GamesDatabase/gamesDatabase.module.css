@@ -1,0 +1,126 @@
+.all{
+    background-color:  rgb(13, 13, 131);
+    height: 100vh;
+}
+
+.title{
+    background-color:  rgb(8, 8, 88);
+    color: yellow;
+    text-decoration:underline;
+    text-align: center;
+    font-family:'Offside';
+    font-size: 50px;
+    
+}
+
+.cardList{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: rgb(8, 8, 88);
+    width: 100%;
+height: 100vh;
+    
+   
+}
+
+.cardin{
+  background-image: url("../../../assets/form/4c22db71cf761fcaea410c7d5c04fd7e.jpg");
+  background-size: 100%;
+   /* background-size: contain; */
+    /* background-repeat: repeat; */
+    /* width: 100%;  */
+   width: 430px;
+   height: 280px;
+   border: 2px solid black;
+   /* padding: 3px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   /* font-weight: bolder; */
+  color: yellow;
+opacity: 0.8;
+   margin: 10px 0 0  10px;
+   /* background-color: blue; */
+font-family:'Roboto';
+overflow: hidden;
+
+}
+
+.name{
+    color: yellow;
+    font-size: 30px;
+    padding: 10px;
+    word-break:break-all;
+    text-decoration: underline;
+}
+
+.genres{
+    padding: 5px;
+}
+
+.description{
+   word-break:break-all; 
+   font-size: 20px;
+  
+} 
+.cardin:hover {
+  transform: translate(0.2rem, 0.2rem);
+}
+
+.delete{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:'Roboto', cursive;
+    border-radius: 40px;
+    background-color: yellow; 
+    border: none;
+} 
+.delete:hover{
+    border: solid black 1px;
+    background-color: red;
+}
+/* .button{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+     border: 5px solid black;
+     margin: 10px;
+     width: 50%;
+}
+
+.delete{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    
+    font-size: larger;
+    font-weight: bolder;
+    font-family:'Roboto', cursive;
+    border-radius: 50px;
+    background-color: azure; 
+} 
+
+.delete:hover{
+    border: solid blue 4px;
+}
+
+/* .in{
+flex-wrap: wrap;
+      border: 5px solid yellow;
+      width: 410px;
+   height: 270px;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   text-align: center;
+   padding: 12px;
+} */
