@@ -15,10 +15,8 @@ import {
   GamesdbDelete,
 } from "./views";
 import NavBar from "./components/NavBar/navbar";
-
-// import Activities from "./views/activities/activities";
-// import ActivitiesCards from "./components/activitiesCards/activitiesCards";
-// import CreateActivity from "./components/createActivity/createActivity.component";
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3001/";
 
 function App() {
 

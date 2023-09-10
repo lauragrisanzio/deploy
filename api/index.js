@@ -17,9 +17,9 @@
 //     =====`-.____`.___ \_____/___.-`___.-'=====
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-const server = require('./src/server.js');
-const { conn } = require('./src/db.js');
-const PORT = 3001
+const server = require('./src/server.js');  //conexion al servidor
+const { conn } = require('./src/db.js'); //conexion a la base de datos
+require("dotenv").config();
 const getVideogames = require("./src/controllers/getVideogames.js")
 const getGenres = require("./src/controllers/getGenres.js")
 
@@ -27,8 +27,8 @@ const getGenres = require("./src/controllers/getGenres.js")
 conn.sync({ force: false}) //force:true-->se elimina la tabla y se vuelve a crear
   //alter actualiza las tablas
   .then(() => {
-  server.listen(PORT, getVideogames(), getGenres(), () => {
-    console.log('Port listening at 3001'); // eslint-disable-line no-console
+  server.listen(process.env.PORT, getVideogames(), getGenres(), () => {
+    console.log('listening at', process.env.PORT); // eslint-disable-line no-console
   });
 });
 
